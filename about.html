@@ -1,0 +1,308 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome | Blackpopex homepage</title>
+    <meta name="description" content="Talented and technological driven web developer, proficient in JavaScript, Angular.js, jQuery etc.">
+    <meta name="Author" content="Oki John, Web-Developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/splide-sea-green.min.css">
+    <script src="https://kit.fontawesome.com/12d9de5a0c.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="./js/splide.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div id="container">
+        <div id="main">
+            <div class="header_wrapper">
+                <header>
+                    <div class="main_wrapper_header">
+                        <div class="logo_icons flex fx-width">
+                            <a href="index.html" id="brand">
+                                <img src="./img/Logo/Blackpopex Logo.jpg" alt="Blackpopex Logo">
+                            </a>
+                            <div class="icon_wrapper">
+                                <ul class="d-flex justify-content-between align-items-center">
+                                    <li><a href="https://github.com/blackpopex" target="_blank"><i class="fab fa-github"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/oki-john-39b838b8/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="https://stackoverflow.com/users/14892854/oki-john?tab=profile" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="navbar-links w-100">
+                            <nav class="navbar-width">
+                                <div id="navLinks" class="sideBar">
+                                    <div class="navbar">
+                                        <div>
+                                            <h4 class="text-center signature">Blackpopex</h4>                                            
+                                        </div>
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about.html" class="active">About</a></li>
+                                            <li><a href="portfolio.html">Portfolio</a></li>
+                                            <li><a href="testimonials.html">Testimonials</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <button id="hamburger-menu" class="navbar_toggler" onclick="myFunction(this)">
+                                    <div class="bar1"></div>
+                                    <div class="bar2"></div>
+                                    <div class="bar3"></div>
+                                </button>                                
+                            </nav>
+                        </div>
+                        <div class="custom-shape-divider-bottom-1608497386">
+                            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <!--------------about---------------->
+            <section id="about">
+                <div class="container main_content_wrapper about_section">
+                    <div class="row">
+                        <div class="col-sm-12 mb-sm-0 mt-md-4">
+                            <div class="img_container text-center mx-auto">
+                                <img src="./img/profile photo/popex.jpg" alt="blackpopex photo" class="img-fluid mx-auto mb-2" style="width: 150px; height: 150px; border-radius: 50%;">
+                                <div class="text_content">
+                                    <h2 class="mb-0 font-weight-bolder" style="color: #222629; line-height: 1.0;">Oki John</h2>
+                                    <h3 class=" m-0">Full stack, UI/UX Web Developer</h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-12 col-md-12 col-xl-6 text-justify review p-5">
+                            <h4 class="text-center font-weight-bold mb-2">Review</h4>
+                            <p>Creative and a proven frontend web developer who derive indescribable joy in building and maintaining 100% responsive websites. Coding is an integral part of my everyday routine while looking forward to exceeding customer’s requirements. Am an effective team player and i will be honored to help your company either as an individual or join already existing team in creating websites that will keep visitors to your web pages on the edge of their seats.  </p>
+                            <p>While trying to meet deadlines and ensure quick turn-around time on various projects I strive to:</p>                        
+                            <ul class="ml-3">
+                                <li><i class="fas fa-angle-right"></i> Be efficient by producing neat and readable lines of code.</li>
+                                <li><i class="fas fa-angle-right"></i> Produce 100% responsive designs across all devices.</li>
+                                <li><i class="fas fa-angle-right"></i> Deliver designs with cross-browser compatibility.</li>
+                                <li><i class="fas fa-angle-right"></i> Pay attention to details. </li>
+                            </ul>
+                            </div>
+                        <div class="col-sm-12 col-md-12 col-xl-6 p-5">
+                            <h4 class="text-center font-weight-bold">Experiences</h4>
+                            <div class="experience_overflow">                          
+                            <div class="experience_wrapper px-2 mt-3" style="width: 100%;">
+                                <div class="d-flex justify-content-between">
+
+                                <h3 style="width: 35%; text-align: center;">2017 - Present</h3>
+                                <div class="px-2" style="width: 65%">
+                                <div class="d-flex justify-content-between">
+                                    <h3>Web Developer</h3>
+                                    <h3>Google</h3>
+                                </div>
+                                <div class="details mt-2">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non tempora sit velit sunt tenetur nisi sed quam eos alias, ullam reiciendis optio. Suscipit hic odit vero minima nam eum dolorem.</p>
+                                </div>
+                               </div>
+                            </div>
+                            </div>
+
+                            <div class="experience_wrapper px-2 mt-3" style="width: 100%;">
+                                <div class="d-flex justify-content-between">
+
+                                <h3 style="width: 35%; text-align: center;">2012 - 2015</h3>
+                                <div class="post_details_wrapper px-2" style="width: 65%">
+                                <div class="pos_company d-flex justify-content-between">
+                                    <h3>Web Developer</h3>
+                                    <h3>Westend Hosp</h3>
+                                </div>
+                                <div class="details mt-2">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non tempora sit velit sunt tenetur nisi sed quam eos alias, ullam reiciendis optio. Suscipit hic odit vero minima nam eum dolorem.</p>
+                                    <ul class="ml-3">
+                                        <li><i class="fas fa-angle-right"></i> Maintaining websites</li>
+                                        <li><i class="fas fa-angle-right"></i> Responsive web designs.</li>
+                                        <li><i class="fas fa-angle-right"></i> Creating Logo</li>
+                                    </ul>
+                                </div>
+                               </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                   
+                    </div>
+                    
+                </div>
+            </section>
+            <section id="Licenses_certifications">
+                <div class="container main_content_wrapper licenses_cert px-2">
+
+                    <div class="px-2">
+                    <h4 class="text-left text-capitalize font-weight-bold mb-2">Licenses and certifications</h2>
+                    <div class="bar"></div>
+                    </div>
+
+                    <div class="mt-4 px-2">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="https://www.sololearn.com/Certificate/1014-11980125/pdf/" target="_blank" class="p-4 w-100">
+                            <img src="./img/certifications/cert-1014-11980125.jpg" alt="Oki John Html" class="mx-auto shadow-lg animate_cert">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 mb-sm-2 mb-md-0">
+                            <a href="https://www.sololearn.com/Certificate/1023-11980125/pdf/" target="_blank" class="p-4 w-100">
+                            <img src="./img/certifications/cert-1023-11980125.jpg" alt="Oki John CSS" class="mx-auto shadow-lg animate_cert">
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://www.sololearn.com/Certificate/1024-11980125/pdf/" target="_blank" class="p-4 w-100">
+                            <img src="./img/certifications/cert-1024-11980125.jpg" alt="Oki John JavaScript" class="mx-auto shadow-lg animate_cert">
+                            </a>
+                        </div>                        
+                    </div>
+                    <div class="row mt-sm-0 mt-md-5">
+                        <div class="col-sm-4">
+                            <a href="https://www.sololearn.com/Certificate/1082-11980125/pdf/" target="_blank" class="p-4 w-100">
+                            <img src="./img/certifications/cert-1082-11980125.jpg" alt="Oki John Jquery" class="mx-auto shadow-lg animate_cert">
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://www.sololearn.com/Certificate/1059-11980125/pdf/" target="_blank" class="p-4 w-100">
+                            <img src="./img/certifications/cert-1059-11980125.jpg" alt="Oki John php" class="mx-auto shadow-lg animate_cert" >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+            </section>
+
+            <section id="technical_Skills">
+                <div class="container main_content_wrapper px-2">
+                    <div class="px-2">
+                <h4 class="text-left font-weight-bold text-dark mb-2">Technical Skills</h2>
+                    <div class="bar"></div>
+                </div>
+
+                    <div class="skills_wrapper mt-4  px-2">
+                        <div class="d-flex .flex-sm-wrap .flex-md-nowrap justify-content-between align-items-center">
+                            <img src="./img/Logo/logo-2582748_960_720.png" alt="html" class="img-fluid">
+                            <img src="./img/Logo/logo-2582747_1280.png" alt="css" class="img-fluid">
+                            <img src="./img/Logo/javascript logo.png" alt="javascript" class="img-fluid">
+                            <img src="./img/Logo/jquery.png" alt="jquery" >
+                            <img src="./img/Logo/php-1-logo-png-transparent.png" alt="php" class="img-fluid">
+                        </div>
+                        <div class="d-flex .flex-sm-wrap .flex-md-nowrap justify-content-between align-items-center mt-4">
+                            <img src="./img/Logo/bootsrap 4.png" alt="bootstrap" class="img-fluid">
+                            <img src="./img/Logo/sass.png" alt="sass" class="img-fluid">
+                            <img src="./img/Logo/RJS-LOGO.png" alt="react" class="img-fluid">
+                            <img src="./img/Logo/nodejs-new-pantone-black_o-1.png" alt="node.js" class="img-fluid">
+                        </div>
+                        <div class="d-flex .flex-sm-wrap .flex-md-nowrap justify-content-between align-items-center mt-4">
+                            <img src="./img/Logo/Agencia-desarrollo-Angular-JS.jpg" alt="angular" class="img-fluid">
+                            <img src="./img/Logo/WordPress-logotype-alternative.png" alt="wordpress" class="img-fluid">                            
+                            <img src="./img/Logo/ajax.png" alt="ajax" style="width: 100px; height: auto;" class="img-fluid">
+                            <img src="./img/Logo/Microsoft.VisualStudio.Services.Icons.Default.png" alt="json"> 
+                            <img src="./img/Logo/Adobe-Photoshop-Crack.jpg" alt="photoshop-logo" class="img-fluid">                     
+                        </div>
+                    </div>               
+                </div>
+            </section>
+            <!------------x-------------x----------->
+
+        </div>
+    </div>
+
+
+
+
+    <footer id="footer">
+        <div class="container py-2 fx-width">
+            <!-------------address to social----------->
+            <div class="row p-2">
+                <div class="col-sm-12 col-md-6 col-xl-6 address_section">
+                    <div class="address_contact">
+                        <div class="content_wrapper d-flex align-items-center text-left m-0 p-0" style="min-height: 5px;">
+                            <i class="fas fa-1x fa-home pr-2"></i>
+                            <div>
+                            <address style="line-height: 18px;">
+                            1, 25th street, D.D.P.A. Housing Estate, Warri, Delta State, Nigeria.
+                        </address>
+                            </div>
+                        </div>
+                        <div class="phone_number text-left mt-2 d-flex  align-items-center" style="min-height: 5px;">
+                            <i class="fas fa-1x fa-envelope pr-2"></i>
+                            <div>
+                            <p class="float-left">admin@blackpopex.com</p>
+                            </div>
+                        </div>
+                        <div class="phone_number text-left mt-1 d-flex  align-items-center" style="min-height: 5px;">
+                            <i class="fas fa-1x fa-phone-alt pr-2"></i>
+                            <div>
+                            <p> +2348-06847-0244, +2347-0599-32224</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-6 social_section">
+                    <div class="social_links">
+                        <div class="content_wrapper">
+                            <ul class="d-flex justify-content-between mx-auto" style="line-height: 18px; width: 65%;">
+                                <li class="border-radius"><a href="https://github.com/blackpopex" target="_blank"><i class="fab fa-github"></i></a></li>
+                                <li class="border-radius"><a href="https://www.linkedin.com/in/oki-john-39b838b8/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                <li class="border-radius"><a href="https://stackoverflow.com/users/14892854/oki-john?tab=profile" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
+                            </ul>
+
+                            <div class=".cert_wrapper mt-1">
+                                <p style="display: inline-block;">Certified by:<a href="#" target="_blank" style="width:auto;">
+                                              w3schools.com <img src="./img/Logo/w3schools-logo.jpg" id="cert-logo">
+                                            </a> & <a href="https://www.sololearn.com/Profile/11980125" target="_blank" style="width:auto">
+                                                sololearn.com <img src="./img/Logo/sololearn logo 1.jpg" id="cert-logo"></a>
+                                                </p>
+                                            </div>
+                    </div>
+
+                    </div>
+                </div>
+                <div class="col-12 copyright_section">
+                    <div class="copyright text-center mt-2">
+                        <small>&copy; <span id="date"></span>.www.blackpopex.com. All rights reserved. </small>
+                        <small><a href="termsofuse.html" target="_blank"> Terms of use </a> | <a href="privacypolicy.html" target="_blank"> Privacy Policy</a> </small>
+                            </div>
+                            <div>
+                                <small class="mt-1">
+                        Crafted by <a href="www.blackpopex.com" target="_blank" class="blackpopex"> Blackpopex</a>
+                    </small>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!---------------x------x------------------->
+                </div>
+    </footer>
+
+
+
+
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

@@ -864,7 +864,9 @@ ul {
 .testimonies_main_wrapper {
     overflow: hidden;
 }
-
+.comment_wrapper a {
+  color: var(--active-link);
+}
 .img_name_tag p {
     color: var(--link-color);
     font-size: var(--small-font-size);

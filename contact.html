@@ -82,18 +82,18 @@
             <section id="contact">
                 <div class="container main_content_wrapper">
                     <div class="row">
-                        <di v class="col-sm-12">
+                        <div class="col-sm-12">
                             <h2 class="text-center font-weight-bold text-dark">Get in touch with me</h2>
-                            <div class="form_container shadow-sm mx-auto mt-3 mt-sm-2 p-4">
-                                <form action="action_page.php" method="POST">
+                            <div class="form_container mx-auto mt-3 mt-sm-2 p-4">
+                                <form action="https://formspree.io/f/xbjpwlgl" method="POST" id="my-form" autocomplete="off">
                                     <div class="full_name mb-4">
                                         <div>
-                                            <label for="fname">Full Name:</label>
-                                            <input type="text" name="fname" id="fname">
+                                            <label for="firstname">Full Name:</label>
+                                            <input type="text" name="firstname" id="firstname">
                                         </div>
                                         <div>
-                                            <label for="lname">Last Name:</label>
-                                            <input type="text" name="lname" id="lname">
+                                            <label for="lastname">Last Name:</label>
+                                            <input type="text" name="lastname" id="lastname">
                                         </div>
                                     </div>
                                     <div class="email w-100 mb-4">
@@ -102,12 +102,13 @@
                                     </div>
                                     <div class="message mb-4">
                                         <label for="fname">Your Message:</label>
-                                        <textarea type="text" cols="6" row="4"></textarea>
+                                        <textarea type="text" cols="6" rows="4" name="message"></textarea>
                                     </div>
-                                    <button type="submit" class="myBtn submitBTN mx-auto d-block">Submit</button>
+                                    <button type="submit" class="myBtn submitBTN mx-auto d-block" id="my-form-button">Submit</button>
+                                    <p id="my-form-status" style="color: #222629; text-align: center; font-size: 1em;" class="mt-2 text-capitalize font-weight-light"></p>
                                 </form>
                             </div>
-                        </di>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -129,8 +130,8 @@
                             <i class="fas fa-1x fa-home pr-2"></i>
                             <div>
                             <address style="line-height: 18px;">
-                            1, 25th street, D.D.P.A. Housing Estate, Warri, Delta State, Nigeria.
-                        </address>
+                                Plot 27, 36th street, D.D.P.A. Housing Estate, Warri, Delta State, Nigeria.
+                            </address>
                             </div>
                         </div>
                         <div class="phone_number text-left mt-2 d-flex  align-items-center" style="min-height: 5px;">
@@ -186,6 +187,8 @@
 
 
     <script src="js/main.js" type="text/JavaScript"></script>
+    <script src="js/vanilla-tilt.js" type="text/JavaScript"></script>
+
 </body>
 
 </html>
